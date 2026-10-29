@@ -266,6 +266,7 @@ import MonetizationOnIcon from "~icons/material-symbols/paid-outline-rounded";
 import NoteAddIcon from "~icons/material-symbols/note-add-outline";
 import NotificationsActiveIcon from "~icons/material-symbols/notifications-active-outline";
 import PaletteIcon from "~icons/material-symbols/palette-outline";
+import WaterDropIcon from "~icons/material-symbols/water-drop-outline";
 import PaymentsIcon from "~icons/material-symbols/payments-outline";
 import PrintIcon from "~icons/material-symbols/print-outline";
 import PsychologyIcon from "~icons/material-symbols/psychology-outline";
@@ -654,6 +655,7 @@ export const iconRegistry = {
   "notifications-active": NotificationsActiveIcon,
   palette: PaletteIcon,
   payments: PaymentsIcon,
+  "water-drop": WaterDropIcon,
   print: PrintIcon,
   psychology: PsychologyIcon,
   radar: RadarIcon,
