@@ -1371,9 +1371,7 @@ describe("Index.vue (Main Traces Page)", () => {
       });
 
       expect(errorState().exists()).toBe(true);
-      expect(wrapper.find('[data-test="error-detail-summary"]').text()).toContain(
-        "Search SQL execute error",
-      );
+      expect(wrapper.text()).toContain('This stream has no field named "foo"');
       expect(wrapper.find('[data-test="error-detail-body"]').exists()).toBe(false);
       expect(wrapper.text()).not.toContain("Error during planning");
       expect(wrapper.findComponent(QueryErrorState).props("errorCode")).toBe(0);
